@@ -137,7 +137,8 @@ header nav ul li a{
 }
 
 
-header nav ul li a:hover{
+header nav ul li a:hover,
+header nav ul li a:focus{
 	border-bottom: 1px #4d4d4d solid;
 }
 
@@ -366,7 +367,8 @@ button{
 	bottom: 0;
 }
 
-.recent_work .work:hover .work_title{
+.recent_work .work:hover .work_title,
+.recent_work .work a:focus .work_title{
   bottom: 66px;
 }
 
@@ -452,33 +454,38 @@ button{
 }
 
 
-.social a.fb{
+.social a.fb, .social a.fb:focus{
 	background-position: 0 0;
 }
-.social a.t{
+.social a.t, .social a.t:focus{
 	background-position: -71px 0;
 }
-.social a.d{
+.social a.d, .social a.d:focus{
 	background-position: -142px 0;
 }
-.social a.g{
+.social a.g, .social a.g:focus{
 	background-position: -213px 0;
 }
 
 
-.social a:hover{
+.social a:hover,
+.social a:focus{
 	background: url('../img/sm_hover.png') no-repeat;
 }
 
-.social a.fb:hover{
+.social a.fb:hover,
+.social a.fb:focus{
 	background-position: 0 0;
 }
-.social a.t:hover{
+.social a.t:hover,
+.social a.t:focus{
 	background-position: -71px 0;
 }
+.social a.d:hover,
 .social a.d:hover{
 	background-position: -142px 0;
 }
+.social a.g:hover,
 .social a.g:hover{
 	background-position: -213px 0;
 }
@@ -569,7 +576,8 @@ footer p{
 	outline: none;
 }
 
-#box #submit:hover{
+#box #submit:hover,
+#box #submit:focus{
 	cursor: pointer;
 	color: #fff;
 	background: #424242;
